@@ -17,8 +17,8 @@ below are the prettrained model used for this problem:
 
 ## prediction
 ```
-import torch
-from utils.utils import *
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) import torch
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) from utils.utils import *
 x,y = dataset
 model = torch.load('model_multi_dim.pth')
 y_pred = model(x)
