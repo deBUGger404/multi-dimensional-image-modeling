@@ -25,4 +25,4 @@ y_pred = model(x)
 accuracy = binary_acc(y_pred,y)
 ```
 
-# Show Some :heart:, Give a :star: To This Repository!
+# Give a :star: To This Repository!
