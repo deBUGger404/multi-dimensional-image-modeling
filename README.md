@@ -18,6 +18,8 @@ Below are the prettrained model used for this problem:
 3. densenet161
 4. alexnet
 
+>If train the model for 3-dimensional image then change input_dim = 3 
+
 ## prediction
 ```python
 import torch
