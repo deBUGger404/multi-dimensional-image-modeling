@@ -71,7 +71,7 @@ val_loader = torch.utils.data.DataLoader(dataset,
                                             num_workers=8,
                                             pin_memory=True)
 
-print('11')
+# print('11')
 # resnet, vgg, densenet, alexnet
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model_ft, input_size = initialize_model(model_name, num_classes, input_dim, use_pretrained=True)
