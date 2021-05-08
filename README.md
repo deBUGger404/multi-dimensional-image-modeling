@@ -1,6 +1,5 @@
 # Multi-Dimension Model Training n PyTorch
-![alt text](https://github.com/aryashah2k/Handwritten-Multiple-Digits-Recognizer/raw/main/assets/Header%20Snip.jpg)
-
+![image](https://user-images.githubusercontent.com/59862546/117540979-59b64100-b02f-11eb-9ea9-457ecf2e2271.png) ![image](https://user-images.githubusercontent.com/59862546/117541029-9124ed80-b02f-11eb-91a0-4e5f4f0f062a.png)
 ## Dataset
 In this project, model build for multi dimension images like image dimension >3(rgb). so data created in such a manner where images are random 8 dimension images with their respective random labels.
 ```
@@ -16,9 +15,9 @@ below are the prettrained model used for this problem:
 4. alexnet
 
 ## prediction
-```
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) import torch
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) from utils.utils import *
+```python
+import torch
+from utils.utils import *
 x,y = dataset
 model = torch.load('model_multi_dim.pth')
 y_pred = model(x)
