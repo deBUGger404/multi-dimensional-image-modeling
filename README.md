@@ -12,7 +12,7 @@ In this project, model build for multi dimension images like image dimension >3(
 ```
 
 ## Image classification using pretrained model on random multi dimension image data
-below are the prettrained model used for this problem:
+Below are the prettrained model used for this problem:
 1. resnet18
 2. vgg16
 3. densenet161
