@@ -29,8 +29,8 @@ input_dim = 8
 
 # random image dataset for 8 dimension image
 class random_dataset(Dataset):
-    def __init__(self):
-        self.image = np.random.rand(5000,224,224,8)
+    def __init__(self, input_dim):
+        self.image = np.random.rand(5000,224,224,input_dim)
         self.labels = np.random.choice([0, 1], size=(5000,), p=[0.6,0.4])
 
     def __getitem__(self, index):
@@ -45,7 +45,7 @@ class random_dataset(Dataset):
 
 
 # Creating training and validation dataset
-dataset = random_dataset()
+dataset = random_dataset(input_dim)
 data_size = len(dataset)
 
 indices = list(range(data_size))
@@ -74,7 +74,7 @@ val_loader = torch.utils.data.DataLoader(dataset,
 print('11')
 # resnet, vgg, densenet, alexnet
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model_ft, input_size = initialize_model(model_name, num_classes, 8, use_pretrained=True)
+model_ft, input_size = initialize_model(model_name, num_classes, input_dim, use_pretrained=True)
 
 # Put the model on the device:
 model_ft = model_ft.to(device)
