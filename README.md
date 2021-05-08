@@ -1,5 +1,5 @@
 # Multi-Dimension Model Training n PyTorch
-<img src="https://user-images.githubusercontent.com/59862546/117540979-59b64100-b02f-11eb-9ea9-457ecf2e2271.png" width="250" height="250"> <img src="https://user-images.githubusercontent.com/59862546/117541029-9124ed80-b02f-11eb-91a0-4e5f4f0f062a.png" width="250" height="250">
+<img src="https://user-images.githubusercontent.com/59862546/117540979-59b64100-b02f-11eb-9ea9-457ecf2e2271.png" width="350" height="250"> <img src="https://user-images.githubusercontent.com/59862546/117541029-9124ed80-b02f-11eb-91a0-4e5f4f0f062a.png" width="350" height="250">
 
 ## Dataset
 In this project, model build for multi dimension images like image dimension >3(rgb). so data created in such a manner where images are random 8 dimension images with their respective random labels.
